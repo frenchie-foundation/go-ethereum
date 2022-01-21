@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/crypto/ecies"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/crypto"
+	"github.com/frenchie-foundation/go-ethereum/crypto/ecies"
+	"github.com/frenchie-foundation/go-ethereum/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

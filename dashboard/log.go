@@ -26,7 +26,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/log"
 	"github.com/mohae/deepcopy"
 	"github.com/rjeczalik/notify"
 )

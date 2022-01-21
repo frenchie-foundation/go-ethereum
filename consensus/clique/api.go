@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/consensus"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/consensus"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

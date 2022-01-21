@@ -23,15 +23,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/math"
-	"github.com/Fantom-foundation/go-ethereum/consensus/ethash"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/common/math"
+	"github.com/frenchie-foundation/go-ethereum/consensus/ethash"
+	"github.com/frenchie-foundation/go-ethereum/core/rawdb"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/core/vm"
+	"github.com/frenchie-foundation/go-ethereum/crypto"
+	"github.com/frenchie-foundation/go-ethereum/ethdb"
+	"github.com/frenchie-foundation/go-ethereum/params"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

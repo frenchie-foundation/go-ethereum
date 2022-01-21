@@ -24,10 +24,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/metrics"
-	"github.com/Fantom-foundation/go-ethereum/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
+	"github.com/frenchie-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/metrics"
+	"github.com/frenchie-foundation/go-ethereum/metrics/exp"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"gopkg.in/urfave/cli.v1"

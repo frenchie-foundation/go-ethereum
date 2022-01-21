@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	"github.com/frenchie-foundation/go-ethereum/accounts"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/crypto"
 	"github.com/pborman/uuid"
 )
 

@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/core/state"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/params"
+	"github.com/frenchie-foundation/go-ethereum/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

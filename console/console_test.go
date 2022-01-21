@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/consensus/ethash"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/eth"
-	"github.com/Fantom-foundation/go-ethereum/internal/jsre"
-	"github.com/Fantom-foundation/go-ethereum/miner"
-	"github.com/Fantom-foundation/go-ethereum/node"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/consensus/ethash"
+	"github.com/frenchie-foundation/go-ethereum/core"
+	"github.com/frenchie-foundation/go-ethereum/eth"
+	"github.com/frenchie-foundation/go-ethereum/internal/jsre"
+	"github.com/frenchie-foundation/go-ethereum/miner"
+	"github.com/frenchie-foundation/go-ethereum/node"
 )
 
 const (

@@ -21,12 +21,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/forkid"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/core"
+	"github.com/frenchie-foundation/go-ethereum/core/forkid"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/event"
+	"github.com/frenchie-foundation/go-ethereum/rlp"
 )
 
 // Constants to match up protocol versions and messages

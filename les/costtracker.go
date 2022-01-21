@@ -23,12 +23,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/eth"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/les/flowcontrol"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/metrics"
+	"github.com/frenchie-foundation/go-ethereum/common/mclock"
+	"github.com/frenchie-foundation/go-ethereum/eth"
+	"github.com/frenchie-foundation/go-ethereum/ethdb"
+	"github.com/frenchie-foundation/go-ethereum/les/flowcontrol"
+	"github.com/frenchie-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/metrics"
 )
 
 const makeCostStats = false // make request cost statistics during operation

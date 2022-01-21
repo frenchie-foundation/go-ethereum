@@ -22,17 +22,17 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/eth/filters"
-	"github.com/Fantom-foundation/go-ethereum/internal/ethapi"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/frenchie-foundation/go-ethereum"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/common/hexutil"
+	"github.com/frenchie-foundation/go-ethereum/core/rawdb"
+	"github.com/frenchie-foundation/go-ethereum/core/state"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/core/vm"
+	"github.com/frenchie-foundation/go-ethereum/eth/filters"
+	"github.com/frenchie-foundation/go-ethereum/internal/ethapi"
+	"github.com/frenchie-foundation/go-ethereum/rlp"
+	"github.com/frenchie-foundation/go-ethereum/rpc"
 )
 
 var (

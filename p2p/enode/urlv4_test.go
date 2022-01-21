@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enr"
+	"github.com/frenchie-foundation/go-ethereum/crypto"
+	"github.com/frenchie-foundation/go-ethereum/p2p/enr"
 )
 
 var parseNodeTests = []struct {

@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
 
+//go:build none
 // +build none
 
 // This file contains a miner stress test based on the Ethash consensus engine.
@@ -28,20 +29,20 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/fdlimit"
-	"github.com/Fantom-foundation/go-ethereum/consensus/ethash"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
-	"github.com/Fantom-foundation/go-ethereum/eth"
-	"github.com/Fantom-foundation/go-ethereum/eth/downloader"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/node"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/frenchie-foundation/go-ethereum/accounts/keystore"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/common/fdlimit"
+	"github.com/frenchie-foundation/go-ethereum/consensus/ethash"
+	"github.com/frenchie-foundation/go-ethereum/core"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/crypto"
+	"github.com/frenchie-foundation/go-ethereum/eth"
+	"github.com/frenchie-foundation/go-ethereum/eth/downloader"
+	"github.com/frenchie-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/node"
+	"github.com/frenchie-foundation/go-ethereum/p2p"
+	"github.com/frenchie-foundation/go-ethereum/p2p/enode"
+	"github.com/frenchie-foundation/go-ethereum/params"
 )
 
 func main() {

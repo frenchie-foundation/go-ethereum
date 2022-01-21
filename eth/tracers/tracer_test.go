@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/core/state"
-	"github.com/Fantom-foundation/go-ethereum/core/vm"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/core/state"
+	"github.com/frenchie-foundation/go-ethereum/core/vm"
+	"github.com/frenchie-foundation/go-ethereum/params"
 )
 
 type account struct{}

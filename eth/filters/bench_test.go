@@ -22,14 +22,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/bitutil"
-	"github.com/Fantom-foundation/go-ethereum/core/bloombits"
-	"github.com/Fantom-foundation/go-ethereum/core/rawdb"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/ethdb"
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/node"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/common/bitutil"
+	"github.com/frenchie-foundation/go-ethereum/core/bloombits"
+	"github.com/frenchie-foundation/go-ethereum/core/rawdb"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/ethdb"
+	"github.com/frenchie-foundation/go-ethereum/event"
+	"github.com/frenchie-foundation/go-ethereum/node"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

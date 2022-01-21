@@ -26,17 +26,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/mclock"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/core/types"
-	"github.com/Fantom-foundation/go-ethereum/eth"
-	"github.com/Fantom-foundation/go-ethereum/les/flowcontrol"
-	"github.com/Fantom-foundation/go-ethereum/light"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/params"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/common/mclock"
+	"github.com/frenchie-foundation/go-ethereum/core"
+	"github.com/frenchie-foundation/go-ethereum/core/types"
+	"github.com/frenchie-foundation/go-ethereum/eth"
+	"github.com/frenchie-foundation/go-ethereum/les/flowcontrol"
+	"github.com/frenchie-foundation/go-ethereum/light"
+	"github.com/frenchie-foundation/go-ethereum/p2p"
+	"github.com/frenchie-foundation/go-ethereum/p2p/enode"
+	"github.com/frenchie-foundation/go-ethereum/params"
+	"github.com/frenchie-foundation/go-ethereum/rlp"
 )
 
 var (

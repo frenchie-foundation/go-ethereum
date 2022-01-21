@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enr"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/frenchie-foundation/go-ethereum/p2p"
+	"github.com/frenchie-foundation/go-ethereum/p2p/enode"
+	"github.com/frenchie-foundation/go-ethereum/p2p/enr"
+	"github.com/frenchie-foundation/go-ethereum/rpc"
 )
 
 // NoopService is the service that does not do anything

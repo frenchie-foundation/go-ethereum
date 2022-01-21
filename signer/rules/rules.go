@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Fantom-foundation/go-ethereum/internal/ethapi"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/signer/core"
-	"github.com/Fantom-foundation/go-ethereum/signer/rules/deps"
-	"github.com/Fantom-foundation/go-ethereum/signer/storage"
+	"github.com/frenchie-foundation/go-ethereum/internal/ethapi"
+	"github.com/frenchie-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/signer/core"
+	"github.com/frenchie-foundation/go-ethereum/signer/rules/deps"
+	"github.com/frenchie-foundation/go-ethereum/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

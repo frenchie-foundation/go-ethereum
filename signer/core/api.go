@@ -25,16 +25,16 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts"
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/accounts/scwallet"
-	"github.com/Fantom-foundation/go-ethereum/accounts/usbwallet"
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/common/hexutil"
-	"github.com/Fantom-foundation/go-ethereum/internal/ethapi"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
-	"github.com/Fantom-foundation/go-ethereum/signer/storage"
+	"github.com/frenchie-foundation/go-ethereum/accounts"
+	"github.com/frenchie-foundation/go-ethereum/accounts/keystore"
+	"github.com/frenchie-foundation/go-ethereum/accounts/scwallet"
+	"github.com/frenchie-foundation/go-ethereum/accounts/usbwallet"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/common/hexutil"
+	"github.com/frenchie-foundation/go-ethereum/internal/ethapi"
+	"github.com/frenchie-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/rlp"
+	"github.com/frenchie-foundation/go-ethereum/signer/storage"
 )
 
 const (

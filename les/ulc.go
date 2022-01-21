@@ -19,8 +19,8 @@ package les
 import (
 	"errors"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
+	"github.com/frenchie-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/p2p/enode"
 )
 
 type ulc struct {

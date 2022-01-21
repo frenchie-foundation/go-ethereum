@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/event"
-	"github.com/Fantom-foundation/go-ethereum/log"
-	"github.com/Fantom-foundation/go-ethereum/node"
-	"github.com/Fantom-foundation/go-ethereum/p2p"
-	"github.com/Fantom-foundation/go-ethereum/p2p/enode"
-	"github.com/Fantom-foundation/go-ethereum/p2p/simulations/adapters"
-	"github.com/Fantom-foundation/go-ethereum/rpc"
+	"github.com/frenchie-foundation/go-ethereum/event"
+	"github.com/frenchie-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/node"
+	"github.com/frenchie-foundation/go-ethereum/p2p"
+	"github.com/frenchie-foundation/go-ethereum/p2p/enode"
+	"github.com/frenchie-foundation/go-ethereum/p2p/simulations/adapters"
+	"github.com/frenchie-foundation/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 )
 

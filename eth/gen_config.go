@@ -6,13 +6,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/consensus/ethash"
-	"github.com/Fantom-foundation/go-ethereum/core"
-	"github.com/Fantom-foundation/go-ethereum/eth/downloader"
-	"github.com/Fantom-foundation/go-ethereum/eth/gasprice"
-	"github.com/Fantom-foundation/go-ethereum/miner"
-	"github.com/Fantom-foundation/go-ethereum/params"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/consensus/ethash"
+	"github.com/frenchie-foundation/go-ethereum/core"
+	"github.com/frenchie-foundation/go-ethereum/eth/downloader"
+	"github.com/frenchie-foundation/go-ethereum/eth/gasprice"
+	"github.com/frenchie-foundation/go-ethereum/miner"
+	"github.com/frenchie-foundation/go-ethereum/params"
 )
 
 // MarshalTOML marshals as TOML.

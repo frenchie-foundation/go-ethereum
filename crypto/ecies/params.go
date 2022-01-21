@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/Fantom-foundation/go-ethereum/crypto"
+	ethcrypto "github.com/frenchie-foundation/go-ethereum/crypto"
 )
 
 var (

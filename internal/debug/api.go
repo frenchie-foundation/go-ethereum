@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Fantom-foundation/go-ethereum/log"
+	"github.com/frenchie-foundation/go-ethereum/log"
 )
 
 // Handler is the global debugging handler.

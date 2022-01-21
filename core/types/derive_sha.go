@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
-	"github.com/Fantom-foundation/go-ethereum/rlp"
-	"github.com/Fantom-foundation/go-ethereum/trie"
+	"github.com/frenchie-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/rlp"
+	"github.com/frenchie-foundation/go-ethereum/trie"
 )
 
 type DerivableList interface {

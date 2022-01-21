@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Fantom-foundation/go-ethereum/common"
+	"github.com/frenchie-foundation/go-ethereum/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

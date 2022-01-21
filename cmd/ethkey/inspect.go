@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/Fantom-foundation/go-ethereum/accounts/keystore"
-	"github.com/Fantom-foundation/go-ethereum/cmd/utils"
-	"github.com/Fantom-foundation/go-ethereum/crypto"
+	"github.com/frenchie-foundation/go-ethereum/accounts/keystore"
+	"github.com/frenchie-foundation/go-ethereum/cmd/utils"
+	"github.com/frenchie-foundation/go-ethereum/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 
